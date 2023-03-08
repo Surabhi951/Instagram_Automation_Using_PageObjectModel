@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-07T23:42:15 IST" name="All Test Suite" finished-at="2023-03-07T23:47:14 IST" duration-ms="298643">
+    <groups>
+    </groups>
+    <test started-at="2023-03-07T23:42:15 IST" name="C:/Users/chetan bhagat/IdeaProjects/PageObjectModelInstagram" finished-at="2023-03-07T23:47:14 IST" duration-ms="298643">
+      <class name="com.bridgelabz.test.InstagramTest">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.bridgelabz.test.InstagramTest@358ee631]" started-at="2023-03-07T23:42:15 IST" name="initialization" finished-at="2023-03-07T23:44:13 IST" duration-ms="117586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="redirectOnToTheSignUp()[pri:0, instance:com.bridgelabz.test.InstagramTest@358ee631]" started-at="2023-03-07T23:44:13 IST" name="redirectOnToTheSignUp" finished-at="2023-03-07T23:44:29 IST" duration-ms="16203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectOnToTheSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.test.InstagramTest@358ee631]" started-at="2023-03-07T23:44:29 IST" name="tearDown" finished-at="2023-03-07T23:44:36 IST" duration-ms="6835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.bridgelabz.test.InstagramTest@358ee631]" started-at="2023-03-07T23:44:36 IST" name="initialization" finished-at="2023-03-07T23:44:59 IST" duration-ms="23312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="insertTheDataIntoTheRegistrationForm()[pri:1, instance:com.bridgelabz.test.InstagramTest@358ee631]" started-at="2023-03-07T23:44:59 IST" name="insertTheDataIntoTheRegistrationForm" finished-at="2023-03-07T23:45:13 IST" duration-ms="13870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertTheDataIntoTheRegistrationForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.test.InstagramTest@358ee631]" started-at="2023-03-07T23:45:13 IST" name="tearDown" finished-at="2023-03-07T23:45:14 IST" duration-ms="1445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.bridgelabz.test.InstagramTest@358ee631]" started-at="2023-03-07T23:45:28 IST" name="initialization" finished-at="2023-03-07T23:45:46 IST" duration-ms="17256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="loginInToTheInstagram(java.lang.String,java.lang.String)[pri:2, instance:com.bridgelabz.test.InstagramTest@358ee631]" started-at="2023-03-07T23:45:46 IST" name="loginInToTheInstagram" data-provider="testLoginData" finished-at="2023-03-07T23:45:57 IST" duration-ms="11715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[surabhi12345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Surabhi@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInToTheInstagram -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.test.InstagramTest@358ee631]" started-at="2023-03-07T23:45:57 IST" name="tearDown" finished-at="2023-03-07T23:46:01 IST" duration-ms="3144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.bridgelabz.test.InstagramTest@358ee631]" started-at="2023-03-07T23:46:01 IST" name="initialization" finished-at="2023-03-07T23:47:05 IST" duration-ms="64556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="loginInToTheInstagram(java.lang.String,java.lang.String)[pri:2, instance:com.bridgelabz.test.InstagramTest@358ee631]" started-at="2023-03-07T23:47:05 IST" name="loginInToTheInstagram" data-provider="testLoginData" finished-at="2023-03-07T23:47:11 IST" duration-ms="5579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amruta12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amruta@321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInToTheInstagram -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.test.InstagramTest@358ee631]" started-at="2023-03-07T23:47:11 IST" name="tearDown" finished-at="2023-03-07T23:47:14 IST" duration-ms="2895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.test.InstagramTest -->
+    </test> <!-- C:/Users/chetan bhagat/IdeaProjects/PageObjectModelInstagram -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
