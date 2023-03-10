@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/chetan bhagat/IdeaProjects/PageObjectModelInstagram(failed)">
+    <classes>
+      <class name="com.bridgelabz.test.InstagramTest">
+        <methods>
+          <include name="loginInToTheInstagram" invocation-numbers="0 1"/>
+          <include name="initialization"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bridgelabz.test.InstagramTest -->
+    </classes>
+  </test> <!-- C:/Users/chetan bhagat/IdeaProjects/PageObjectModelInstagram(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

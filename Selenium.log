@@ -1,0 +1,5 @@
+18:50:14,775  INFO com.bridgelabz.baseclass.BaseClass<strong>{1}</strong>:27 - Chrome browser has launched
+18:50:14,836 DEBUG com.bridgelabz.baseclass.BaseClass<strong>{1}</strong>:29 - Implicit time wait
+18:50:14,858 DEBUG com.bridgelabz.baseclass.BaseClass<strong>{1}</strong>:53 - login
+18:50:34,516  INFO com.bridgelabz.baseclass.BaseClass<strong>{1}</strong>:56 - login successfully
+18:50:35,390  INFO com.bridgelabz.baseclass.BaseClass<strong>{1}</strong>:34 - quit
