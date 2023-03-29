@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="1" total="4" passed="2" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[*******Browser session ends*******]]>
@@ -7,102 +7,91 @@
     <line>
       <![CDATA[*******Browser session ends*******]]>
     </line>
-    <line>
-      <![CDATA[*******Browser session ends*******]]>
-    </line>
-    <line>
-      <![CDATA[*******Browser session ends*******]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-03-10T18:45:58 IST" name="All Test Suite" finished-at="2023-03-10T18:50:35 IST" duration-ms="277141">
+  <suite started-at="2023-03-12T15:22:57 IST" name="All Test Suite" finished-at="2023-03-12T15:24:53 IST" duration-ms="116059">
     <groups>
     </groups>
-    <test started-at="2023-03-10T18:45:58 IST" name="C:/Users/chetan bhagat/IdeaProjects/PageObjectModelInstagram" finished-at="2023-03-10T18:50:35 IST" duration-ms="277141">
+    <test started-at="2023-03-12T15:22:57 IST" name="C:/Users/chetan bhagat/IdeaProjects/PageObjectModelInstagram" finished-at="2023-03-12T15:24:53 IST" duration-ms="116059">
       <class name="com.bridgelabz.test.InstagramTest">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.bridgelabz.test.InstagramTest@290222c1]" started-at="2023-03-10T18:45:58 IST" name="initialization" finished-at="2023-03-10T18:47:03 IST" duration-ms="64921" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.bridgelabz.test.InstagramTest@21282ed8]" started-at="2023-03-12T15:22:57 IST" name="initialization" finished-at="2023-03-12T15:23:52 IST" duration-ms="55102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="redirectOnToTheSignUp()[pri:0, instance:com.bridgelabz.test.InstagramTest@290222c1]" started-at="2023-03-10T18:47:04 IST" name="redirectOnToTheSignUp" finished-at="2023-03-10T18:47:14 IST" duration-ms="9783" status="PASS">
+        <test-method signature="redirectOnToTheSignUp()[pri:0, instance:com.bridgelabz.test.InstagramTest@21282ed8]" started-at="2023-03-12T15:23:53 IST" name="redirectOnToTheSignUp" finished-at="2023-03-12T15:23:54 IST" duration-ms="1043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- redirectOnToTheSignUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.test.InstagramTest@290222c1]" started-at="2023-03-10T18:47:14 IST" name="tearDown" finished-at="2023-03-10T18:47:15 IST" duration-ms="1164" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.test.InstagramTest@21282ed8]" started-at="2023-03-12T15:23:54 IST" name="tearDown" finished-at="2023-03-12T15:23:56 IST" duration-ms="1518" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[*******Browser session ends*******]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.bridgelabz.test.InstagramTest@290222c1]" started-at="2023-03-10T18:47:15 IST" name="initialization" finished-at="2023-03-10T18:48:10 IST" duration-ms="55078" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.bridgelabz.test.InstagramTest@21282ed8]" started-at="2023-03-12T15:23:56 IST" name="initialization" finished-at="2023-03-12T15:24:39 IST" duration-ms="43474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="insertTheDataIntoTheRegistrationForm()[pri:1, instance:com.bridgelabz.test.InstagramTest@290222c1]" started-at="2023-03-10T18:48:10 IST" name="insertTheDataIntoTheRegistrationForm" finished-at="2023-03-10T18:48:25 IST" duration-ms="15026" status="PASS">
+        <test-method signature="insertTheDataIntoTheRegistrationForm()[pri:1, instance:com.bridgelabz.test.InstagramTest@21282ed8]" started-at="2023-03-12T15:24:39 IST" name="insertTheDataIntoTheRegistrationForm" finished-at="2023-03-12T15:24:43 IST" duration-ms="3628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertTheDataIntoTheRegistrationForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.test.InstagramTest@290222c1]" started-at="2023-03-10T18:48:25 IST" name="tearDown" finished-at="2023-03-10T18:48:27 IST" duration-ms="2236" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.test.InstagramTest@21282ed8]" started-at="2023-03-12T15:24:43 IST" name="tearDown" finished-at="2023-03-12T15:24:44 IST" duration-ms="922" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[*******Browser session ends*******]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.bridgelabz.test.InstagramTest@290222c1]" started-at="2023-03-10T18:48:32 IST" name="initialization" finished-at="2023-03-10T18:48:48 IST" duration-ms="16215" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="loginInToTheInstagram(java.lang.String,java.lang.String)[pri:2, instance:com.bridgelabz.test.InstagramTest@290222c1]" started-at="2023-03-10T18:48:48 IST" name="loginInToTheInstagram" data-provider="testLoginData" finished-at="2023-03-10T18:49:02 IST" duration-ms="13600" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[surabhi12345]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Surabhi@123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="loginInToTheInstagram(java.lang.String,java.lang.String)[pri:2, instance:com.bridgelabz.test.InstagramTest@21282ed8]" started-at="2023-03-12T15:24:53 IST" name="loginInToTheInstagram" data-provider="testLoginData" finished-at="2023-03-12T15:24:53 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because "cell" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because "cell" is null
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because "cell" is null
+at com.bridgelabz.utility.DataDrivenFramework.getData(DataDrivenFramework.java:33)
+at com.bridgelabz.utility.DataProviderCredentials.getDataFromSheetFile(DataProviderCredentials.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInToTheInstagram -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.test.InstagramTest@290222c1]" started-at="2023-03-10T18:49:02 IST" name="tearDown" finished-at="2023-03-10T18:49:04 IST" duration-ms="2204" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[*******Browser session ends*******]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.bridgelabz.test.InstagramTest@290222c1]" started-at="2023-03-10T18:49:04 IST" name="initialization" finished-at="2023-03-10T18:50:14 IST" duration-ms="70291" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="loginInToTheInstagram(java.lang.String,java.lang.String)[pri:2, instance:com.bridgelabz.test.InstagramTest@290222c1]" started-at="2023-03-10T18:50:14 IST" name="loginInToTheInstagram" data-provider="testLoginData" finished-at="2023-03-10T18:50:34 IST" duration-ms="19669" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[amruta12]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Amruta@321]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginInToTheInstagram -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.test.InstagramTest@290222c1]" started-at="2023-03-10T18:50:34 IST" name="tearDown" finished-at="2023-03-10T18:50:35 IST" duration-ms="868" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[*******Browser session ends*******]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- com.bridgelabz.test.InstagramTest -->
     </test> <!-- C:/Users/chetan bhagat/IdeaProjects/PageObjectModelInstagram -->
   </suite> <!-- All Test Suite -->

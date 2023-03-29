@@ -5,7 +5,7 @@
     <classes>
       <class name="com.bridgelabz.test.InstagramTest">
         <methods>
-          <include name="loginInToTheInstagram" invocation-numbers="0 1"/>
+          <include name="loginInToTheInstagram"/>
           <include name="initialization"/>
           <include name="tearDown"/>
         </methods>

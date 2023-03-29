@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Reporter;
 
 import java.util.concurrent.TimeUnit;
@@ -21,7 +22,9 @@ public class BaseClass extends ReadPropertyFile {
         PropertyConfigurator.configure("C:\\Users\\chetan bhagat\\IdeaProjects\\PageObjectModelInstagram\\log4j.properties");
         BasicConfigurator.configure();
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        WebDriver driver = new ChromeDriver(options);
         driver.get(properties.getProperty("Application_Url"));
         driver.manage().window().maximize();
         log.info("Chrome browser has launched");

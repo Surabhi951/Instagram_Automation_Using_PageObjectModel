@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
-              <span class="suite-name border-passed">All Test Suite</span>
+              <span class="suite-name border-failed">All Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods failed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-All_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="com.bridgelabz.test.InstagramTest" class="method navigator-link" hash-for-method="loginInToTheInstagram">loginInToTheInstagram</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-All_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,16 +118,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="com.bridgelabz.test.InstagramTest" class="method navigator-link" hash-for-method="insertTheDataIntoTheRegistrationForm">insertTheDataIntoTheRegistrationForm</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="com.bridgelabz.test.InstagramTest" class="method navigator-link" hash-for-method="loginInToTheInstagram(surabhi12345, Surabhi@123)">loginInToTheInstagram(surabhi12345, Surabhi@123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="com.bridgelabz.test.InstagramTest" class="method navigator-link" hash-for-method="loginInToTheInstagram(amruta12, Amruta@321)">loginInToTheInstagram(amruta12, Amruta@321)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -133,6 +137,60 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bridgelabz.test.InstagramTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginInToTheInstagram">
+                  </a> <!-- loginInToTheInstagram -->
+                  <span class="method-name">loginInToTheInstagram</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Cell.getStringCellValue()&quot; because &quot;cell&quot; is null
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Cell.getStringCellValue()&quot; because &quot;cell&quot; is null
+	at com.bridgelabz.utility.DataDrivenFramework.getData(DataDrivenFramework.java:33)
+	at com.bridgelabz.utility.DataProviderCredentials.getDataFromSheetFile(DataProviderCredentials.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+	... 24 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-failed -->
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -144,22 +202,6 @@
                   <a name="insertTheDataIntoTheRegistrationForm">
                   </a> <!-- insertTheDataIntoTheRegistrationForm -->
                   <span class="method-name">insertTheDataIntoTheRegistrationForm</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginInToTheInstagram(surabhi12345, Surabhi@123)">
-                  </a> <!-- loginInToTheInstagram(surabhi12345, Surabhi@123) -->
-                  <span class="method-name">loginInToTheInstagram</span>
-                  <span class="parameters">(surabhi12345,Surabhi@123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginInToTheInstagram(amruta12, Amruta@321)">
-                  </a> <!-- loginInToTheInstagram(amruta12, Amruta@321) -->
-                  <span class="method-name">loginInToTheInstagram</span>
-                  <span class="parameters">(amruta12,Amruta@321)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -229,28 +271,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginInToTheInstagram')
+data.setCell(0, 1, 'insertTheDataIntoTheRegistrationForm')
 data.setCell(0, 2, 'com.bridgelabz.test.InstagramTest')
-data.setCell(0, 3, 19669);
+data.setCell(0, 3, 3628);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'insertTheDataIntoTheRegistrationForm')
+data.setCell(1, 1, 'redirectOnToTheSignUp')
 data.setCell(1, 2, 'com.bridgelabz.test.InstagramTest')
-data.setCell(1, 3, 15026);
+data.setCell(1, 3, 1043);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginInToTheInstagram')
 data.setCell(2, 2, 'com.bridgelabz.test.InstagramTest')
-data.setCell(2, 3, 13600);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'redirectOnToTheSignUp')
-data.setCell(3, 2, 'com.bridgelabz.test.InstagramTest')
-data.setCell(3, 3, 9783);
+data.setCell(2, 3, 0);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -265,9 +303,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-All_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.bridgelabz.test.InstagramTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">logOutFromInstagramHomePage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-All_Test_Suite" class="panel">
@@ -283,47 +328,23 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">redirectOnToTheSignUp</span>
-                <span class="method-start">66197 ms</span>
+                <span class="method-start">55880 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">76049 ms</span>
+                <span class="method-start">56956 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initialization</span>
-                <span class="method-start">77225 ms</span>
+                <span class="method-start">58490 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">insertTheDataIntoTheRegistrationForm</span>
-                <span class="method-start">132306 ms</span>
+                <span class="method-start">101964 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">147338 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initialization</span>
-                <span class="method-start">154093 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">loginInToTheInstagram(surabhi12345, Surabhi@123)</span>
-                <span class="method-start">170310 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">183924 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initialization</span>
-                <span class="method-start">186136 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">loginInToTheInstagram(amruta12, Amruta@321)</span>
-                <span class="method-start">256432 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">276107 ms</span>
+                <span class="method-start">105607 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

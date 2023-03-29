@@ -34,8 +34,9 @@ public class InstagramLoginPage extends ReadPropertyFile {
         driver.findElement(By.name(properties.getProperty("loginUserNameData"))).sendKeys(uName);
         password.sendKeys(pass);
         loginButton.click();
-        Thread.sleep(500);
+        Thread.sleep(2000);
         redirectOnToTheHomePage();
+        Thread.sleep(2000);
     }
 
     public void redirectOnToTheHomePage() {
