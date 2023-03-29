@@ -44,3 +44,4 @@ public class InstagramLoginPage extends ReadPropertyFile {
         Assert.assertEquals("Instagram",title);
     }
 }
+

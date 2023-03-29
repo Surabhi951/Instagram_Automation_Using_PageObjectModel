@@ -38,3 +38,4 @@ public class BaseClass extends ReadPropertyFile {
         Reporter.log("*******Browser session ends*******",true);
     }
 }
+

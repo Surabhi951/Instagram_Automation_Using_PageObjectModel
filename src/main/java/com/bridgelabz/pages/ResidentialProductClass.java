@@ -50,3 +50,4 @@ public class ResidentialProductClass {
         Thread.sleep(3000);
     }
 }
+

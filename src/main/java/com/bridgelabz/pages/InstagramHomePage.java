@@ -74,3 +74,4 @@ public class InstagramHomePage {
         Thread.sleep(6000);
     }
 }
+

@@ -82,5 +82,3 @@ public class InstagramTest extends BaseClass {
         closeBrowser();
     }
 }
-
-
